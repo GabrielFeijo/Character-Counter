@@ -16,7 +16,7 @@ const CardComponent: React.FC<ICardComponentProps> = ({
 			className='h-32 rounded-xl p-3 w-full flex flex-col justify-center'
 			style={{
 				backgroundColor: color,
-				backgroundImage: `url('./src/assets/${imageSrc}')`,
+				backgroundImage: `url('/src/assets/${imageSrc}')`,
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: '110%',
 			}}

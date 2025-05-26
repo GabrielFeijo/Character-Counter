@@ -7,7 +7,7 @@ const HeaderComponent = () => {
 	return (
 		<header className='flex justify-between items-center'>
 			<img
-				src={`./src/assets/logo-${theme}-theme.svg`}
+				src={`/src/assets/logo-${theme}-theme.svg`}
 				alt='Character counter logo'
 			/>
 

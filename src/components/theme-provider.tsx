@@ -45,7 +45,7 @@ export function ThemeProvider({
 			setTheme(theme);
 		},
 		getBackgroundImage: (): string => {
-			return `./src/assets/bg-${theme}-theme.png`;
+			return `/src/assets/bg-${theme}-theme.png`;
 		},
 	};
 
