@@ -40,7 +40,7 @@ function TextAnalyzerPage() {
 				<HeaderComponent />
 
 				<main>
-					<h1 className='lg:text-[4rem] text-5xla font-bold max-w-[33.75rem] leading-[100%] tracking-[-1px] text-center my-10 mx-auto text-[#12131a] dark:text-[#f2f2f7]'>
+					<h1 className='lg:text-[4rem] text-5xl font-bold max-w-[33.75rem] leading-[100%] tracking-[-1px] text-center my-10 mx-auto text-[#12131a] dark:text-[#f2f2f7]'>
 						Analyze your text in real-time.
 					</h1>
 
