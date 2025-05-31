@@ -33,7 +33,7 @@ Siga estas instruções para executar o projeto localmente.
 $ git clone https://github.com/GabrielFeijo/Character-Counter.git
 
 # Acesse a pasta do projeto
-$ cd text-analyzer
+$ cd Character-Counter
 
 # Instale as dependências
 $ npm install
