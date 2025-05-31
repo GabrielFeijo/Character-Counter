@@ -26,7 +26,7 @@ const DensityListComponent: React.FC<DensityListComponentProps> = ({
 
 			<div className='text-sm dark:text-[#e4e4ef] text-right'>
 				<span className='font-medium'>{value}</span>
-				<span className='ml-1'>({percentage.toFixed(1)}%)</span>
+				<span className='ml-1'>({percentage.toFixed(2)}%)</span>
 			</div>
 		</div>
 	);

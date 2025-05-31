@@ -64,9 +64,7 @@ export function useTextAnalysis() {
 		}
 
 		Object.keys(density).forEach((char) => {
-			density[char].percentage = Math.round(
-				(density[char].count / totalLetters) * 100
-			);
+			density[char].percentage = (density[char].count / totalLetters) * 100;
 		});
 
 		return Object.entries(density)
